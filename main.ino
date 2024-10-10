@@ -19,29 +19,6 @@ void loop(){
   move();
   reintialize_vis();
 
-  moveForward();
-
-
-
-  // Serial.print("Yaw (Z-axis): ");
-  // Serial.println(AngleZ );
-
-//  if(!wallFront())
-//  {
-//   moveForward();
-//  }else if(wallFront() && wallRight() && wallLeft()){
-//   turnRight();
-//   turnRight();
-//  }else if(wallFront() && wallRight()){
-//   turnLeft();
-//  }else if(wallFront() && wallLeft()){
-//   turnRight();
-//  }
-//  else if(wallFront()){
-//   turnRight();
-//  }
-
-
  
 }
 
